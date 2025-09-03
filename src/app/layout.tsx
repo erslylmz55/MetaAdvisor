@@ -25,13 +25,17 @@ export const metadata: Metadata = {
     description: 'Transform your business with AI-driven insights and strategic recommendations.',
     creator: '@metaadvisor',
   },
-  viewport: 'width=device-width, initial-scale=1',
-  themeColor: '#1e40af',
   manifest: '/manifest.json',
   icons: {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png',
   },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#1e40af',
 };
 
 export default function RootLayout({
